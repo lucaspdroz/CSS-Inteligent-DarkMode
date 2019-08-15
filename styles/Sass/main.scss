@@ -1,0 +1,17 @@
+body {
+  color: var(--color);
+  background: var(--background-color);
+}
+
+
+@media(prefers-color-scheme:dark){
+    h1::after{
+        content: 'Hello Darkness my old friend 🐸'
+    }
+}
+
+@media(prefers-color-scheme:light){
+    h1::after{
+        content: 'Shuttdown the lights Bro... i wanna sleep 🦇'
+    }
+}
